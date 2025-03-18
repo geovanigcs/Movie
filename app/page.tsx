@@ -242,7 +242,7 @@ const movieItems = [
   {
     id: 3,
     title: "Deadpool & Wolverine",
-    image: "/deadwolve.jpg",
+    image: "/deadewolve.jpg",
     rating: 7.9,
     episodes: 1,
     genre: "Ação",

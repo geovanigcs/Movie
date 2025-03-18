@@ -57,7 +57,7 @@ export function AppSidebar() {
           className="flex items-center gap-2"
         >
           <span className="font-bold text-xl">
-            <span className="text-white">GIGIO&apos;S</span>{" "}
+            <span className="text-gray-350">GIGIO&apos;S</span>{" "}
             <span className="text-primary drop-shadow-[0_0_10px_rgba(6,182,212,0.8)]">MOVIES</span>
           </span>
         </motion.div>

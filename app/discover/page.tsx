@@ -161,7 +161,7 @@ export default function DiscoverPage() {
                       </span>
                     </div>
 
-                    <p className="text-base md:text-lg text-gray-200 mb-6 line-clamp-3">
+                    <p className="text-base md:text-lg text-gray-350 mb-6 line-clamp-3">
                       {currentContent?.description || t("sample_description")}
                     </p>
                   </div>

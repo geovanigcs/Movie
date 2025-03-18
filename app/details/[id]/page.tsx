@@ -143,7 +143,6 @@ export default function DetailsPage({ params }: { params: Promise<{ id: string }
   )
 }
 
-// Dados de exemplo
 const movieItems = [
   {
     id: 1,
@@ -159,7 +158,7 @@ const movieItems = [
   {
     id: 2,
     title: "Oppenheimer",
-    image: "/oppenheimer.jpeg",
+    image: "/oppenx.jpeg",
     rating: 8.2,
     episodes: 1,
     genre: "Drama",

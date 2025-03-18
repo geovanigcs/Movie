@@ -73,7 +73,7 @@ export function FeaturedMovie({ movie }: FeaturedMovieProps) {
         <div className="container px-4 md:px-6 lg:px-8">
           <div className="max-w-2xl">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3 text-white">{movie.title}</h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3 text-white-350">{movie.title}</h1>
 
               <div className="flex items-center gap-3 mb-4 text-sm">
                 <span className="bg-primary/20 text-primary px-2 py-1 rounded-md font-medium">{movie.rating} ★</span>
@@ -82,7 +82,7 @@ export function FeaturedMovie({ movie }: FeaturedMovieProps) {
                 <span>{movie.genre}</span>
               </div>
 
-              <p className="text-base md:text-lg text-gray-200 mb-6 line-clamp-3 md:line-clamp-4">
+              <p className="text-base md:text-lg text-gray-350 mb-6 line-clamp-3 md:line-clamp-4">
                 {movie.description}
               </p>
 
